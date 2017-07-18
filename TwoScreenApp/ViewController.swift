@@ -45,3 +45,7 @@ class ViewController: UIViewController {
             return true
     }
 }
+
+//prepareForSegue funkcionira tako da identificiramo segue koji će se izvršiti, te pripremimo podatke koji će se slati na odredišni view controller
+
+//može se vratiti pomoću funkcije dismiss, ako je view postavljen modalno ili pomoću unwind segue
